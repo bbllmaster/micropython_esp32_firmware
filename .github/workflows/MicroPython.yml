@@ -3,6 +3,10 @@ name: MicroPython For ESP32
 on:
   workflow_dispatch:
 
+permissions:
+  contents: write
+  actions: write
+
 env:
   MICROPYTHON: micropython
   MICROPYTHON_REPO: https://github.com/micropython/micropython.git

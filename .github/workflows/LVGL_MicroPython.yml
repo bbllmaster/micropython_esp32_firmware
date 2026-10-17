@@ -3,6 +3,10 @@ name: LVGL_MicroPython For ESP32
 on:
   workflow_dispatch:
 
+permissions:
+  contents: write
+  actions: write
+
 env:
   LVGL: lvgl_micropython
   LVGL_REPO: https://github.com/lvgl-micropython/lvgl_micropython.git
